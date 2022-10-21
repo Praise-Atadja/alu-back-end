@@ -20,7 +20,7 @@ if __name__ == '__main__':
                                  (obj["completed"] is True), todos_info))
     number_of_done_tasks = len(task_completed)
     total_number_of_tasks = len(todos_info)
-
+    
     with open(str(employee_id) + '.csv', "w") as file:
         [file.write('"' + str(employee_id) + '",' +
                     '"' + employee_username + '",' +
